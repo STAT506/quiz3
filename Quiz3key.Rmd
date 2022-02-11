@@ -1,0 +1,47 @@
+---
+title: "Quiz3"
+author: "key"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### 1. Provide some intuition about log-odds interpretation of parameters in logistic regression.
+
+#### a. What value of log-odds represents "no effect"
+
+zero 
+
+#### b. Interpret log-odds of 0
+
+No change in the odds
+
+#### c. Interpret log-odds of 1
+
+For two units that differ by one in x, would expect the log-odds increase by a factor of 1 in favor of the unit with larger x. The odds would increase, by a factor of about 2.7.
+
+
+#### d. Interpret log-odds of -3
+
+For two units that differ by one in x, would expect the log-odds to decrease by a factor of -3 for the unit with larger x. The odds would decrease, by a factor of about 0.05.
+
+### 2. Provide some intuition about odds-ratio interpretation of parameters in logistic regression.
+
+#### a. What value of odds-ratio represents "no effect"
+
+1
+
+#### b. Interpret odds ratio of 1
+
+No change in the odds
+
+
+#### c. Interpret odds ratio of 2
+
+For two units that differ by one in x, odds of success twice as high for the unit with larger x.
+
+#### c. Interpret odds ratio of 1/2
+
+For two units that differ by one in x, odds of success half as high for the unit with larger x.
